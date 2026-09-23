@@ -1,0 +1,31 @@
+{
+  "name": "react-hooks",
+  "version": "1.0.0",
+  "description": "Learning React hooks",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dineshinau/react-hooks.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "dineshinau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dineshinau/react-hooks/issues"
+  },
+  "homepage": "https://github.com/dineshinau/react-hooks#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}
