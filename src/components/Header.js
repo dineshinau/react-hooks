@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import Timer from "./Timer";
 
 const Header = () => {
     const inputRef = useRef(null);
@@ -9,7 +8,6 @@ const Header = () => {
             <div className="logo">
                 <img height="100px" width="100px" src="https://dineshinaublog.wordpress.com/wp-content/uploads/2026/09/food-app.png" />
             </div>
-            <Timer />
             <div className="nav-links">
               <input ref={inputRef} type="text" placeholder="Search..." />
 
